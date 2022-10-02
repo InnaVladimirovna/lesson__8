@@ -1,0 +1,317 @@
+@font-face {
+   font-family: "Lato";
+   src: url("../fonts/Lato-Black.woff2")  format("wooff2"), url("../fonts/Lato-Black.woff")  format("woff");
+   font-display: swap;
+   font-style: normal;
+   font-weight: 900;
+}
+@font-face {
+   font-family: "Lato";
+   src: url("../fonts/Lato-Bold.woff2")  format("wooff2"), url("../fonts/Lato-Bold.woff")  format("woff");
+   font-display: swap;
+   font-style: normal;
+   font-weight: 700;
+}@font-face {
+   font-family: "Lato";
+   src: url("../fonts/Lato-Regular.woff2")  format("wooff2"), url("../fonts/Lato-Regular.woff")  format("woff");
+   font-display: swap;
+   font-style: normal;
+   font-weight: 400;
+}
+.container{
+   width: 1230px;
+   margin: 0   auto;
+   font-family: "Lato";
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 1.5;
+   color: #424551;
+}
+h1{
+   font-weight: 900;
+   font-size: 46px;
+   line-height: 1.3;
+   color: #1E212C;
+   margin-top: 120px;
+   margin-bottom: 40px;
+}
+.top__block  p{
+   width: 600px;
+   margin-bottom: 48px;
+}
+h2{
+   font-weight: 700;
+   font-size: 28px;
+   line-height: 1.5;
+   color: #1E212C;
+   margin-bottom: 24px;
+}
+.middle__block li{
+   padding-left: 32px;
+   background-image: url("../img/check.svg");
+   background-repeat: no-repeat;
+   background-position: 0  5px;
+}
+.end__block h3{
+   font-weight: 700;
+   margin-top: 200px;
+   margin-bottom: 8px;
+   color: #1E212C;
+}
+.end__block  h2{
+   font-weight: 900;
+   font-size: 46px;
+   line-height: 1.3;
+   color: #1E212C;
+   margin-bottom: 16px;
+}
+.end__block p{
+   color: #787A80;
+   line-height: 1.5;
+   font-size: 20px;
+   margin-bottom: 32px;
+}
+.end__block li:first-child{
+   padding-left: 24px;
+   background-image: url("../img/Star.svg");
+   background-repeat: no-repeat;
+   background-position: 0  5px;
+   font-weight: 700;
+}
+.end__block li:nth-child(2){
+   padding-left: 24px;
+   background-image: url("../img/Play.svg");
+   background-repeat: no-repeat;
+   background-position: 0  5px;
+   font-weight: 700;
+}
+.end__block li:last-child{
+   padding-left: 24px;
+   background-image: url("../img/Profile.svg");
+   background-repeat: no-repeat;
+   background-position: 0  5px;
+   font-weight: 700;
+}
+.end__block p{
+   margin-top: 32px;
+   width: 600px;
+}
+.block__hover{
+   margin-top: 100px;
+   height: 100px;
+   background-color: darkgoldenrod;
+   color: rgb(192, 43, 43);
+   text-align: center;
+   font-size: 50px;
+   padding-top: 20px;
+}
+.block__hover:hover{
+   background-color: green;
+   color: black;
+}
+.block__active{
+   height: 100px;
+   text-align: center;
+   font-size: 50px;
+   padding-top: 20px;
+   background-color: khaki;
+   color: cornflowerblue;
+}
+.block__active:active{
+   background-color: cornflowerblue;
+   color: khaki;
+}
+.block__focus  a{
+   display: inline-block;
+   height: 100px;
+   width: 100%;
+   text-align: center;
+   font-size: 50px;
+   padding-top: 20px;
+   background-color: lightcoral;
+   color: lightseagreen;
+}
+.block__focus  a:focus{
+   outline: 5px solid lightseagreen;
+}
+.block__visibility{
+   display: inline-block;
+   height: 100px;
+   width: 100%;
+   text-align: center;
+   font-size: 50px;
+   padding-top: 20px;
+   background-color: black;
+   color: #fff;
+}
+.block__visibility:hover   .block__item{
+   visibility: visible;
+   opacity: 1;
+}
+.block__item{
+   opacity: 0;
+   visibility: hidden;
+}
+.block__visited{
+   margin-top: 20px;
+   margin-bottom: 20px;
+   font-size: 50px;
+   text-align: center;
+   color: olivedrab;
+}
+.link:visited{
+   color: grey;
+}
+.block__menu{
+   margin-bottom: 20px;
+   padding-left: 20px;
+   width: 100%;
+   background-color: aqua;
+   font-size: 50px;
+}
+.block__menu ul{
+   display: none;
+}
+.block__menu li:hover ul{
+   display: block;
+}
+.link__target{
+   font-size: 50px;
+   margin-left: 40px;
+}
+.blockk{
+   background-color: cadetblue;
+   color: #fff;
+   padding: 20px;
+   font-size: 30px;
+   display: none;
+}
+.blockk:target{
+   display: block;
+}
+.text{
+   background-color: darkolivegreen;
+   color: #fff;
+   padding-left: 40px;
+   font-size: 25px;
+}
+.text p:not(:last-child){
+   margin-bottom: 10px;
+}
+.text p:first-child{
+   color: red;
+}
+.text p:nth-child(even){
+   text-transform: uppercase;
+}
+.text p:last-of-type{
+   color: gold;
+}
+.text p:nth-child(3){
+   font-size: 15px;
+}
+.game{
+   max-width: 800px;
+   min-height: 500px;
+   border: 2px solid black;
+   margin: 0   auto;
+   margin-top: 100px;
+   margin-bottom: 20px;
+
+}
+.game__start{
+   background-color: black;
+   width: 100px;
+   height: 30px;
+   color: #fff;
+   text-transform: uppercase;
+   text-align: center;
+   padding: 5px;
+}
+
+
+.game__1{
+   visibility: hidden;
+   width: 30px;
+   height: 80px;
+   margin-top: 9px;
+   background-color: red;
+   margin-left: 15px;
+}
+.game__2{
+   visibility: hidden;
+   width: 300px;
+   height: 30px;
+   background-color: green;
+   margin-left: 15px;
+}
+.game__3{
+   visibility: hidden;
+   width:30px;
+   height: 200px;
+   background-color: yellow;
+   margin: 0  0  0  286px;
+}
+.game__4{
+   visibility: hidden;
+   width: 100px;
+   height: 10px;
+   background-color: red;
+   margin: 0   0  0  286px;
+}
+.game__5{
+   visibility: hidden;
+   width: 8px;
+   height: 30px;
+   background-color: green;
+   margin: -10px   0  0  385px;
+}
+.game__6{
+   visibility: hidden;
+   width: 400px;
+   height: 8px;
+   background-color: rgb(109, 109, 10);
+   margin-left: 385px;
+}
+.game__7{
+   visibility: hidden;
+   width: 8px;
+   height: 80px;
+   background-color: rgb(208, 136, 27);
+   margin-left:  777px;
+}
+.game__finish{
+   width: 100px;
+   height: 38px;
+   background-color: cyan;
+   color: #000;
+   text-transform: uppercase;
+   text-align: center;
+   padding-top: 10px;
+   margin-left: 692px;
+   visibility: hidden;
+}
+.game__start:hover .game__1{
+   visibility: visible;
+}
+.game__start:hover .game__2{
+   visibility: visible;
+}
+.game__start:hover .game__3{
+   visibility: visible;
+}
+.game__start:hover .game__4{
+   visibility: visible;
+}
+.game__start:hover .game__5{
+   visibility: visible;
+}
+.game__start:hover .game__6{
+   visibility: visible;
+}
+.game__start:hover .game__7{
+   visibility: visible;
+}
+.game__start:hover .game__finish{
+   visibility: visible;
+}
